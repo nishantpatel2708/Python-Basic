@@ -1,0 +1,57 @@
+Object : Collection of data and its functionality
+
+class : Blue print of Object   OR
+        class is a template to create an Object
+
+
+Encapsulation : Biding the code and data together
+                Ex : Python class
+
+Polymorphism : Ability to take multiple forms So far instance
+                Ex : if parent class has method name ABC the child class also
+                have method with same name ABC.
+
+Data Abstraction : data Abstraction is provinding the required details and hiding the implementation
+                from the world
+
+Inheritance : When a class derives from another class
+			to inherit properties and methods of parent class to child class
+
+
+
+
+
+
+
+
+
+
+
+List : ordered, changeable, and allow duplicate values
+        print(thislist[1])
+        thislist[1] = "blackcurrant"
+        thislist.append("orange")
+        thislist.insert(1, "orange")
+        thislist.remove("banana")
+        thislist.pop(1)
+
+Set : unordered, unchangeable*(can Add or Remove), and unindexed. No duplicate members
+        print("banana" in thisset)
+        thisset.add("orange")
+        thisset.remove("banana")
+        thisset.discard("banana")
+        x = thisset.pop()
+
+Dict : ordered** and changeable. No duplicate members
+        x = thisdict.keys()
+        x = thisdict.items()
+        thisdict["year"] = 2018
+        thisdict.update({"year": 2020})
+        thisdict.pop("model")
+        thisdict.popitem()
+
+Tuple :  ordered and unchangeable. Allows duplicate members
+           print(thistuple[1])
+                y = list(thistuple)
+                y.append("orange")
+           
