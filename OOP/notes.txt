@@ -1,0 +1,29 @@
+Operator: oprator is nothing  but a symbol that performs certain task.
+
+AerithmeticOperator - ( +, -, *, /, etc.. )
+RelationalOperator - ( <, >, <=, >=, ==, != )
+LogicalOperator - ( and, or, not )
+BitwiseOperator - ( )
+AssignOperator - ( = )
+specialOperator 
+     1. identity oprator - ( is, is not )
+     2. membership oprator - ( in, not in )
+
+
+
+Modules:
+     Modules are gruoup of functions, variables, and classes that are saved to a file, to reuse them.
+
+          Note:-    Code Reusability
+                    Pre-defined modules are: random, keyword, calender, etc..
+                         Examples:
+                                   import calender
+                                   print(calender.month(2022, 1))
+
+
+Functions:
+     functions is gruoup of statements which only excute when we call the fucntion
+          Note:-   Code Reusability
+                    functions return value as a result
+                    we can pass the value to the fucntion called parameters.
+          Pre-defined fucntions are: len(), print(), int()

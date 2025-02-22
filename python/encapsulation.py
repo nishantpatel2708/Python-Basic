@@ -1,18 +1,18 @@
 # Encalpultion
-class Person:              #class define
-    def __init__(self,fname,lname,age,id=None):
-        self.fname=fname
-        self.lname=lname
-        self.age=age
-        self.id=id
-    def full_name(self,mname):
-        return f"Your first name is {self.fname} and your mname is {mname} your last name is {self.lname} id is {self.id}"
-    def is_above_18(self):
-        if self.age>18:
-            return True
-        else:
-            return False
-P1=Person('cirag','joshi',58)
+# class Person:              #class define
+#     def __init__(self,fname,lname,age,id=None):
+#         self.fname=fname
+#         self.lname=lname
+#         self.age=age
+#         self.id=id
+#     def full_name(self,mname):
+#         return f"Your first name is {self.fname} and your mname is {mname} your last name is {self.lname} id is {self.id}"
+#     def is_above_18(self):
+#         if self.age>18:
+#             return True
+#         else:
+#             return False
+# P1=Person('cirag','joshi',58)
 class Phone:
     def __init__(self,model_name,com_name,_price):
         self.model_name=model_name

@@ -20,7 +20,7 @@ while a == 1:
                     print('Your seat',book,'is booked...')
                     print('You have to Pay', j[0])
                     dict1[i][1] = 'unavailable'
-                    
+                    # print(">>>>>>>>>>>>",dict1[i])
                     list1 = []
                     for x,y in dict1.items():            
                         if 'unavailable' in y:

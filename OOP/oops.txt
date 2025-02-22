@@ -1,26 +1,24 @@
 Object : Collection of data and its functionality
+        An object is simply a collection of data (variables) and methods (functions) that operate on the data
 
 class : Blue print of Object   OR
         class is a template to create an Object
 
 
 Encapsulation : Biding the code and data together
+                In encapsulation, the internal state of an object is kept hidden and can only be accessed or modified through the defined methods or properties of the object. 
                 Ex : Python class
 
 Polymorphism : Ability to take multiple forms So far instance
+                same object having different behaviors called Polymorphism
                 Ex : if parent class has method name ABC the child class also
                 have method with same name ABC.
 
 Data Abstraction : data Abstraction is provinding the required details and hiding the implementation
                 from the world
 
-Inheritance : When a class derives from another class
-			to inherit properties and methods of parent class to child class
-
-
-
-
-
+Inheritance : When a class derives from another class to inherit properties and methods of parent class to child class
+                When we define a class that inherits all the properties of other class called inheritance.
 
 
 

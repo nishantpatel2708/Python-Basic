@@ -1,0 +1,38 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "pizza",
+            "price": 10
+        },
+        {
+            "id": 2,
+            "name": "item 2",
+            "price": 150.0
+        },
+        {
+            "id": 3,
+            "name": "item 3",
+            "price": 3000.0
+        },
+        {
+            "id": 4,
+            "name": "Item 4",
+            "price": 520.0
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "name": "Nishant",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "pizza",
+                    "quantity": 2
+                }
+            ],
+            "total": 27
+        }
+    ]
+}
